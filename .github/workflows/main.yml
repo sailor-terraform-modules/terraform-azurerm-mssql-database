@@ -28,7 +28,7 @@ jobs:
         run: terraform init --input=false
 
       - name: terraform format
-        run: terraform fmt -check -debug
+        run: terraform fmt -check
 
       - name: terraform validate
         run: terraform validate
